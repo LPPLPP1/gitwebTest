@@ -2,9 +2,12 @@ package com.lpp.entity;
 
 public class Person {
 private String namep;
-private int age;private int age1;
+private int age;
+private int age1;
 	
-	private int age2;
+private int age2;
+
+private int age3;
 public String getNamep() {
 	return namep;
 }
