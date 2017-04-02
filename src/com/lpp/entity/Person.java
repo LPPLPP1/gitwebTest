@@ -8,6 +8,7 @@ private int age1;
 private int age2;
 
 private int age3;
+private int age4;
 public String getNamep() {
 	return namep;
 }
