@@ -15,5 +15,12 @@ public int getAge() {
 public void setAge(int age) {
 	this.age = age;
 }
+@Override
+public String toString() {
+	return "Person [namep=" + namep + ", age=" + age + ", getNamep()="
+			+ getNamep() + ", getAge()=" + getAge() + ", getClass()="
+			+ getClass() + ", hashCode()=" + hashCode() + ", toString()="
+			+ super.toString() + "]";
+}
 
 }
